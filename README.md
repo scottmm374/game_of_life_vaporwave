@@ -1,12 +1,10 @@
-# Game of Life (John Conway)
-
-A brief description of what this project does and who it's for
+# Game of Life Vaporwave
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+![MIT Liscence](https://img.shields.io/github/license/scottmm374/game_of_life_vaporwave)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![Commits](https://img.shields.io/github/commit-activity/w/scottmm374/game_of_life_vaporwave)
 
 ## Appendix
 
