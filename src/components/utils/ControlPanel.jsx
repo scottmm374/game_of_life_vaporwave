@@ -117,15 +117,16 @@ function ControlPanel() {
                 speed={speed}
             />
             <PatternDropDown handlePresets={handlePresets} />
-            <Rules />
-
-            <canvas
-                ref={canvasRef}
-                id='canvas'
-                width={width}
-                height={height}
-                onClick={handleClick}
-            />
+            {/* <Rules /> */}
+            <div className='canvas-container'>
+                <canvas
+                    ref={canvasRef}
+                    id='canvas'
+                    width={width}
+                    height={height}
+                    onClick={handleClick}
+                />
+            </div>
         </>
     );
 }
