@@ -1,4 +1,17 @@
 :root {
+    --Pink: hsl(322, 100%, 69%);
+    --BrightBlue: hsl(187, 100%, 68%);
+    --Yellow: hsl(64, 100%, 69%);
+    --Orange: hsl(36, 100%, 50%);
+    --DarkBlueGrey: hsl(205, 35%, 33%);
+    --DarkBlueBlack: hsl(237, 69%, 13%);
+
+    --FadedPink: hsla(322, 100%, 69%, 0.505);
+    --backgroundColor: #1b1919e8;
+    --MainFont: 'Roboto Condensed', sans-serif;
+    --TitleFont: 'Neonderthaw', cursive;
+    --PinkShadow: 5px 4px 9px #e03c8a;
+
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -6,10 +19,20 @@
     -webkit-text-size-adjust: 100%;
 }
 
+* {
+    margin: 0 auto;
+    font: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+    background-image: url('../src/images/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -1,0 +1,33 @@
+<svg width="1419" height="275" viewBox="0 0 1419 275" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="7" width="1400" height="275" fill="#0A0C37"/>
+<line x1="715.5" y1="6" x2="715.5" y2="275" stroke="#FF61C6"/>
+<line x1="897.398" y1="268.136" x2="798.647" y2="7.62479" stroke="#FF61C6"/>
+<line y1="-0.5" x2="278.6" y2="-0.5" transform="matrix(0.354454 -0.935073 -0.935073 -0.354454 535 266.511)" stroke="#FF61C6"/>
+<line x1="883.095" y1="9.368" x2="1076.71" y2="273.04" stroke="#FF61C6"/>
+<line y1="-0.5" x2="327.124" y2="-0.5" transform="matrix(-0.591873 0.806032 0.806032 0.591873 552.616 5)" stroke="#FF61C6"/>
+<line x1="966.334" y1="7.62761" x2="1264.33" y2="274.628" stroke="#FF61C6"/>
+<path d="M470.666 5.62769L172.666 272.628" stroke="#FF61C6"/>
+<line x1="1049.26" y1="7.56999" x2="1408.26" y2="220.57" stroke="#FF61C6"/>
+<line x1="388.612" y1="5.37681" x2="5.0511" y2="261.385" stroke="#FF61C6"/>
+<line x1="1131.2" y1="7.5434" x2="1417.95" y2="135.509" stroke="#FF61C6"/>
+<line y1="-0.5" x2="334" y2="-0.5" transform="matrix(-0.91319 0.407534 0.407534 0.91319 308.742 5)" stroke="#FF61C6"/>
+<line x1="1214.17" y1="7.52892" x2="1408.03" y2="76.4955" stroke="#FF61C6"/>
+<line y1="-0.5" x2="234.76" y2="-0.5" transform="matrix(-0.942154 0.33518 0.33518 0.942154 225.858 4)" stroke="#FF61C6"/>
+<line x1="1301.12" y1="7.51572" x2="1410.12" y2="35.5157" stroke="#FF61C6"/>
+<line x1="137.137" y1="6.48089" x2="0.136897" y2="45.4809" stroke="#FF61C6"/>
+<line x1="1379.14" y1="7.51924" x2="1407.68" y2="15.673" stroke="#FF61C6"/>
+<line y1="-0.5" x2="49.68" y2="-0.5" transform="matrix(-0.961524 0.274721 0.274721 0.961524 51.5381 7)" stroke="#FF61C6"/>
+<line x1="7" y1="21.5" x2="1407" y2="21.4999" stroke="#FF61C6" stroke-opacity="0.75"/>
+<line x1="7" y1="12.5" x2="1407" y2="12.4999" stroke="#FF61C6" stroke-opacity="0.5"/>
+<line x1="7" y1="31.5" x2="1407" y2="31.4999" stroke="#FF61C6" stroke-opacity="0.5"/>
+<path d="M7 43.5L1407 43.4999" stroke="#FF61C6"/>
+<path d="M6 74.0001L1406 74" stroke="#FF61C6"/>
+<path d="M7 58.0001L1407 58" stroke="#FF61C6" stroke-opacity="0.5"/>
+<path d="M7 115L1407 115" stroke="#FF61C6"/>
+<path d="M4 93.0001L1404 93" stroke="#FF61C6" stroke-opacity="0.5"/>
+<path d="M7 137L1407 137" stroke="#FF61C6" stroke-opacity="0.75"/>
+<path d="M7 170L1407 170" stroke="#FF61C6" stroke-opacity="0.5"/>
+<path d="M7 208L1407 208" stroke="#FF61C6"/>
+<path d="M7 252L1407 252" stroke="#FF61C6" stroke-opacity="0.5"/>
+<line x1="7" y1="3.50012" x2="1407" y2="3.5" stroke="#FF61C6"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_31_118)">
+<rect width="1440" height="1024" fill="#0A0C37"/>
+<line x1="86.5" y1="2.18557e-08" x2="86.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="195.5" y1="2.18557e-08" x2="195.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="304.5" y1="2.18557e-08" x2="304.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line x1="413.5" y1="2.18557e-08" x2="413.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="522.5" y1="2.18557e-08" x2="522.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="631.5" y1="2.18557e-08" x2="631.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line x1="740.5" y1="2.18557e-08" x2="740.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="849.5" y1="2.18557e-08" x2="849.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="958.5" y1="2.18557e-08" x2="958.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line x1="1067.5" y1="2.18557e-08" x2="1067.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="1176.5" y1="2.18557e-08" x2="1176.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line x1="1285.5" y1="2.18557e-08" x2="1285.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line x1="1394.5" y1="2.18557e-08" x2="1394.5" y2="1024" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 4 6 8"/>
+<line y1="91.5" x2="1440" y2="91.5" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line x1="-1" y1="206.5" x2="1439" y2="206.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line x1="-1" y1="321.5" x2="1439" y2="321.5" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line y1="436.5" x2="1440" y2="436.5" stroke="#FF61C6" stroke-opacity="0.1"/>
+<line y1="551.5" x2="1440" y2="551.5" stroke="#FF61C6" stroke-opacity="0.2"/>
+<line y1="666.5" x2="1440" y2="666.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line y1="666.5" x2="1440" y2="666.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line y1="666.5" x2="1440" y2="666.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line y1="666.5" x2="1440" y2="666.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line x1="-10" y1="809.5" x2="1430" y2="809.5" stroke="#FF61C6" stroke-opacity="0.2" stroke-dasharray="2 2"/>
+<line y1="936.5" x2="1440" y2="936.5" stroke="#FF61C6" stroke-opacity="0.2"/>
+</g>
+<defs>
+<clipPath id="clip0_31_118">
+<rect width="1440" height="1024" fill="white"/>
+</clipPath>
+</defs>
+</svg>
