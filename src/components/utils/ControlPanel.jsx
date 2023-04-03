@@ -1,11 +1,10 @@
-import React, { useState, useRef, useCallback, useMemo } from 'react';
-import ControlView from './views/ControlView';
-import { useAnimate } from './hooks/useAnimate';
+import React, { useState, useRef, useCallback } from 'react';
+import ControlView from '../views/ControlView';
+import { useAnimate } from './useAnimate';
 import NewGen from './NewGen';
-import Presets from './utils/presets';
-import PresetView from './views/PresetView';
-import Rules from './views/Rules';
-// import Generation from './views/Generation';
+import Presets from './Presets';
+import PatternDropDown from '../views/PatternDropDown';
+import Rules from '../views/Rules';
 
 function ControlPanel() {
     const interval = useRef(null);
@@ -108,8 +107,6 @@ function ControlPanel() {
 
     return (
         <>
-            {/* // <div className='main-content'> */}
-            {/* // <div className='preset-rules'> */}
             <ControlView
                 controlSpeed={controlSpeed}
                 startGame={startGame}
@@ -119,11 +116,9 @@ function ControlPanel() {
                 handlePresets={handlePresets}
                 speed={speed}
             />
-            <PresetView handlePresets={handlePresets} />
+            <PatternDropDown handlePresets={handlePresets} />
             <Rules />
-            {/* <Generation gen={gen} /> */}
-            {/* </div> */}
-            {/* // </div> */}
+
             <canvas
                 ref={canvasRef}
                 id='canvas'
@@ -131,7 +126,6 @@ function ControlPanel() {
                 height={height}
                 onClick={handleClick}
             />
-            {/* // </div> */}
         </>
     );
 }

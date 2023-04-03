@@ -66,7 +66,7 @@ footer {
     padding-bottom: 3%;
     font-size: 1.5rem;
     text-align: center;
-    background-image: url('../src/images/footer.svg');
+    background-image: url('/src/assets/images/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px -32px 33px -4px var(--Pink);
@@ -180,15 +180,4 @@ footer {
 
 .menu-item {
     position: relative;
-    /* padding: 1%;
-    font-size: 0.5rem;
-    border-radius: 10px;
-    background-color: var(--DarkBlueBlack);
-    color: var(--DarkBlueGrey);
-    border: 1px solid var(--DarkBlueBlack); */
-    /* box-shadow: 5px 4px 9px #e67212; */
-}
-
-.rules-btn {
-    /* position: relative; */
 }

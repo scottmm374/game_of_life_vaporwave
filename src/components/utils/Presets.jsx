@@ -1,6 +1,6 @@
 export default function Presets(choice) {
-    const COLS = 50;
-    const ROWS = 50;
+    const COLS = 100;
+    const ROWS = 100;
 
     let presetGrid = Array.from({ length: ROWS }, () =>
         new Array(COLS).fill(0)

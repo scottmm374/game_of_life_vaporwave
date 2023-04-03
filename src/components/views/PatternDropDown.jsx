@@ -92,72 +92,8 @@ const PresetView = (props) => {
                         </li>
                     </ul>
                 ) : null}
-                {/* {open ? <div>{EventTarget.value}</div> : <div>Is Closed</div>} */}
             </div>
         </div>
-
-        // <div className='preset-container'>
-        //     <div className='button-container'>
-        //         <button className='titles-preset-rules'>Choose a Preset</button>
-        //         <ul className='drowpdown'>
-        //             <li>
-        //                 <button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='thunderbird'
-        //                 >
-        //                     Thunderbird
-        //                 </button>
-        //             </li>
-        //             <li>
-        //                 <button
-        //                     button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='quad_thunderbird'
-        //                 >
-        //                     Quad-Thunderbird
-        //                 </button>
-        //             </li>
-        //             <li>
-        //                 <button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='infinite'
-        //                 >
-        //                     Infinite
-        //                 </button>
-        //             </li>
-        //             <li>
-        //                 <button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='gospers_glider_gun'
-        //                 >
-        //                     Gospers Glider Gun
-        //                 </button>
-        //             </li>
-        //             <li>
-        //                 <button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='mash_up'
-        //                 >
-        //                     Mash-up
-        //                 </button>
-        //             </li>
-        //             <li>
-        //                 <button
-        //                     className='preset-button'
-        //                     onClick={props.handlePresets}
-        //                     value='random'
-        //                 >
-        //                     Random
-        //                 </button>
-        //             </li>
-        //         </ul>
-        //     </div>
-        // </div>
     );
 };
 

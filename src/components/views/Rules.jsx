@@ -1,14 +1,14 @@
 import * as React from 'react';
-import billboard from '../../images/rules.svg';
+import billboard_rules from '../../assets/images/billboard_rules.svg';
 
 const Rules = () => {
-    const [toggle, setToggle] = React.useState(false);
     return (
         <div className='rules-container'>
             <img
-                src={billboard}
+                src={billboard_rules}
                 alt='billboard'
-                width='500'
+                width='394'
+                height='241'
                 className='billboard'
             />
         </div>

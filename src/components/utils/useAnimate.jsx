@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from 'react';
-import Presets from '../utils/presets';
+import Presets from './Presets';
 
 export const height = 700;
 export const width = 700;
-export const cell_size = 15;
+export const cell_size = 7;
 
 export function useAnimate() {
     const canvasRef = useRef(null);

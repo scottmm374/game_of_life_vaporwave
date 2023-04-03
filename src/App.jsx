@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import React from 'react';
 import './App.css';
+import ControlPanel from './components/utils/ControlPanel';
+import Header from './components/views/Header';
+import Footer from './components/views/Footer';
 
 function App() {
-    const [count, setCount] = useState(0);
-
-    return <div className='App'></div>;
+    return (
+        <div className='app'>
+            <Header />
+            <ControlPanel />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
