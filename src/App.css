@@ -193,6 +193,11 @@
     position: absolute;
     list-style-type: none;
     padding: 0;
+    max-height: 20rem;
+    min-width: 16rem;
+    overflow-y: scroll;
+    scrollbar-color: var(--FadedPink) var(--DarkBlueGrey);
+    scrollbar-width: none;
 }
 
 .preset-button {
@@ -211,7 +216,21 @@
     color: var(--Pink);
     /* box-shadow: 5px 4px 9px #e03c8a; */
 }
-
 .menu-item {
+    background-color: var(--DarkBlueBlack);
+    color: var(--FadedPink);
     position: relative;
+}
+
+.menu-item button {
+    width: 100%;
+    font-size: 1.75rem;
+    padding: 5%;
+
+    color: var(--FadedPink);
+    border-bottom: 0.5px dashed hsla(322, 100%, 69%, 0.21);
+    text-align: start;
+}
+.menu-item > button:hover {
+    color: var(--Pink);
 }

@@ -17,7 +17,7 @@ const PresetView = (props) => {
                     <ul className='menu'>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='beacon'
                             >
@@ -27,7 +27,7 @@ const PresetView = (props) => {
                         <li onClick={handleOpen} className='menu-item'>
                             <button
                                 button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='dart'
                             >
@@ -37,7 +37,7 @@ const PresetView = (props) => {
                         <li onClick={handleOpen} className='menu-item'>
                             <button
                                 button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='spaceship'
                             >
@@ -47,7 +47,7 @@ const PresetView = (props) => {
                         <li onClick={handleOpen} className='menu-item'>
                             <button
                                 button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='dragon'
                             >
@@ -56,7 +56,7 @@ const PresetView = (props) => {
                         </li>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='two_darts'
                             >
@@ -65,7 +65,7 @@ const PresetView = (props) => {
                         </li>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='gospers_glider_gun'
                             >
@@ -74,7 +74,7 @@ const PresetView = (props) => {
                         </li>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='thunderbird_hassler'
                             >
@@ -83,7 +83,7 @@ const PresetView = (props) => {
                         </li>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                className='preset-button'
+                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='random'
                             >
