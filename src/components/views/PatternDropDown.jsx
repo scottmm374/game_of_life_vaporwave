@@ -17,7 +17,6 @@ const PresetView = (props) => {
                     <ul className='menu'>
                         <li onClick={handleOpen} className='menu-item'>
                             <button
-                                // className='preset-button'
                                 onClick={props.handlePresets}
                                 value='beacon'
                             >

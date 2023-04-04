@@ -4,12 +4,12 @@ import { useAnimate } from './useAnimate';
 import NewGen from './NewGen';
 import Presets from './Presets';
 import PatternDropDown from '../views/PatternDropDown';
-import Rules from '../views/Rules';
+import SpeedControl from '../views/SpeedControl';
 
 function ControlPanel() {
     const interval = useRef(null);
     const [gameRunning, setGameRunning] = useState(false);
-    const [speed, setSpeed] = useState(25);
+    const [speed, setSpeed] = useState(150);
 
     const [
         canvasRef,
@@ -114,10 +114,10 @@ function ControlPanel() {
                 clearBoard={clearBoard}
                 gameRunning={gameRunning}
                 handlePresets={handlePresets}
-                speed={speed}
             />
+            <SpeedControl controlSpeed={controlSpeed} speed={speed} />
+
             <PatternDropDown handlePresets={handlePresets} />
-            {/* <Rules /> */}
             <div className='canvas-container'>
                 <canvas
                     ref={canvasRef}
