@@ -53,7 +53,8 @@ export default function Presets(choice) {
         const col = 9;
         const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2);
         // Removed this to start at left and move right
-        const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
+        // const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
+        const offsetC = 3;
 
         pattern.forEach(([r, c]) => {
             presetGrid[offsetR + r][offsetC + c] = 1;
@@ -144,7 +145,8 @@ export default function Presets(choice) {
         const row = 15;
         const col = 18;
         const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2);
-        const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
+        const offsetC = 3;
+        // const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
 
         pattern.forEach(([r, c]) => {
             presetGrid[offsetR + r][offsetC + c] = 1;
@@ -280,8 +282,8 @@ export default function Presets(choice) {
         ];
         const row = 24;
         const col = 47;
-        // const offsetR = 23;
-        const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2);
+        const offsetR = 35;
+        // const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2);
         const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
 
         pattern.forEach(([r, c]) => {
@@ -523,13 +525,13 @@ export default function Presets(choice) {
             [8, 12],
             [8, 13],
         ];
-        // const row = 9;
-        // const col = 36;
-        // const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2);
-        // const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2);
+        const row = 9;
+        const col = 36;
+        const offsetR = Math.floor(ROWS / 2) - Math.floor(row / 2) - 15;
+        const offsetC = Math.floor(COLS / 2) - Math.floor(col / 2) - 10;
 
         pattern.forEach(([r, c]) => {
-            presetGrid[r + 3][c + 10] = 1;
+            presetGrid[offsetR + r][offsetC + c] = 1;
         });
     } else if (choice === 'thunderbird_hassler') {
         const pattern = [

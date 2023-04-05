@@ -3,6 +3,7 @@ import React from 'react';
 const SpeedControl = ({ speed, controlSpeed }) => {
     return (
         <div className='speed-container'>
+            {/* <span>Faster</span> */}
             <label htmlFor='speed'></label>
             <input
                 type='range'
@@ -13,9 +14,11 @@ const SpeedControl = ({ speed, controlSpeed }) => {
                 className='speed-slider'
                 id='speed'
             />
-            <output htmlFor='speed' className='speed-output'>
+
+            <h3>{speed} ms</h3>
+            {/* <output htmlFor='speed' className='speed-output'>
                 {speed} ms
-            </output>
+            </output> */}
         </div>
     );
 };
